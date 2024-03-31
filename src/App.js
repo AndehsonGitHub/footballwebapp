@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Blah from './pages/blah';
 import Luton from './pages/Luton'
+import Mciars from './pages/mciars'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/blah" element={<Blah />} />
                 <Route path="/luton" element={<Luton />} />
                 <Route path="/lutontable.jpg" element={<Luton />} />
+                <Route path="/mciars.js" element={<Mciars />} />
             </Routes>
         </Router>
       </section>

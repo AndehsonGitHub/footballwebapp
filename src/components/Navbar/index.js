@@ -24,6 +24,9 @@ const Navbar = () => {
                     <NavLink to="/Luton">
                         <button>Luton</button>
                     </NavLink>
+                    <NavLink to="/mciars.js" >
+                        <button>MCI 0-0 ARS</button>
+                    </NavLink>
                 </NavMenu>
             </Nav>
         </>
